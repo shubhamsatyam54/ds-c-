@@ -1,0 +1,124 @@
+[I 05:45:13.169 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-06-24 05:45:14.029 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.029 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.029 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.029 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.030 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.030 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.030 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.030 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-24 05:45:14.030 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-24 05:45:14.031 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.031 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-24 05:45:14.031 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-06-24 05:45:14.041 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-06-24 05:45:14.041 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 05:45:14.049 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 05:45:14.051 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 05:45:14.052 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 05:45:14.052 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 05:45:14.052 NotebookApp] http://jupyter-shubhamsatyam54-2dds-2dc-2d-2d1a6fvl6r:8888/user/shubhamsatyam54-ds-c--1a6fvl6r/?token=...
+[I 05:45:14.052 NotebookApp]  or http://127.0.0.1:8888/user/shubhamsatyam54-ds-c--1a6fvl6r/?token=...
+[I 05:45:14.052 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 05:45:14.056 NotebookApp] No web browser found: could not locate runnable browser.
+[I 05:45:14.728 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--1a6fvl6r/ (10.2.1.116) 1.570000ms
+[I 05:45:18.184 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--1a6fvl6r/?token=UyhbqAxiRC6wWoDM5q3nog (106.67.122.91) 1.130000ms
+[I 05:47:57.470 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 05:47:57.471 NotebookApp] Notebook array .ipynb is not trusted
+[I 05:47:58.407 NotebookApp] Kernel started: 5c8b554b-e6aa-42ee-8878-7cfacce7fa1f, name: xcpp17
+[I 05:47:58.407 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 05:47:58.408 NotebookApp] Culling kernels even with connected clients
+[W 05:48:33.574 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--1a6fvl6r/nbextensions/widgets/notebook/js/extension.js?v=20210624054513 (106.67.122.91) 14.720000ms referer=https://hub-binder.mybinder.ovh/user/shubhamsatyam54-ds-c--1a6fvl6r/notebooks/array%20.ipynb
+[W 05:49:11.813 NotebookApp] Replacing stale connection: 5c8b554b-e6aa-42ee-8878-7cfacce7fa1f:c32e7c2374bb4253b002e90901cc1717
+[I 05:49:16.815 NotebookApp] Starting buffering for 5c8b554b-e6aa-42ee-8878-7cfacce7fa1f:c32e7c2374bb4253b002e90901cc1717
+[I 05:49:16.817 NotebookApp] Restoring connection for 5c8b554b-e6aa-42ee-8878-7cfacce7fa1f:c32e7c2374bb4253b002e90901cc1717
+[I 05:55:58.619 NotebookApp] Saving file at /array .ipynb
+[W 05:56:13.015 NotebookApp] Notebook array .ipynb is not trusted
+[I 05:58:13.819 NotebookApp] Saving file at /array .ipynb
+[W 05:58:13.820 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:04:14.034 NotebookApp] Saving file at /array .ipynb
+[W 06:04:14.034 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:06:13.715 NotebookApp] Saving file at /array .ipynb
+[W 06:06:13.716 NotebookApp] Notebook array .ipynb is not trusted
+[W 06:06:58.408 NotebookApp] Culling 'idle' kernel 'xcpp17' (5c8b554b-e6aa-42ee-8878-7cfacce7fa1f) with 2 connections due to 643 seconds of inactivity.
+[I 06:06:58.409 NotebookApp] Kernel shutdown: 5c8b554b-e6aa-42ee-8878-7cfacce7fa1f
+[I 06:08:13.724 NotebookApp] Saving file at /array .ipynb
+[W 06:08:13.724 NotebookApp] Notebook array .ipynb is not trusted
+[E 06:09:44.510 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5c8b554b-e6aa-42ee-8878-7cfacce7fa1f)
+[E 06:09:44.515 NotebookApp] {
+      "Cookie": "username-hub-binder-mybinder-ovh=\"2|1:0|10:1624513518|32:username-hub-binder-mybinder-ovh|44:ZTFlMjE2YjExMzFjNDUxODgyMzliYmYyMTVkZDgzNDU=|d48f556a0f9814165d4720c022b861105f803dc01ebb67e2a8216f3b5882723f\"; _xsrf=2|425c2add|0f42f9ab12b9671363484b370e127ee8|1624508557",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub-binder.mybinder.ovh/user/shubhamsatyam54-ds-c--1a6fvl6r/notebooks/array%20.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub-binder.mybinder.ovh",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|425c2add|0f42f9ab12b9671363484b370e127ee8|1624508557",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub-binder.mybinder.ovh",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "157.42.118.218,::ffff:10.2.0.0",
+      "X-Real-Ip": "157.42.118.218",
+      "X-Request-Id": "fc79d68060629f9d29904bd1abd57573",
+      "Host": "hub-binder.mybinder.ovh",
+      "Connection": "close"
+    }
+[E 06:09:44.515 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--1a6fvl6r/api/kernels/5c8b554b-e6aa-42ee-8878-7cfacce7fa1f/restart (157.42.118.218) 5.900000ms referer=https://hub-binder.mybinder.ovh/user/shubhamsatyam54-ds-c--1a6fvl6r/notebooks/array%20.ipynb
+[W 06:09:44.751 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--1a6fvl6r/api/sessions/4fad023d-3ca0-4c30-945d-39d64ff4b980 (157.42.118.218): Kernel deleted before session
+[W 06:09:44.751 NotebookApp] Kernel deleted before session
+[W 06:09:44.753 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--1a6fvl6r/api/sessions/4fad023d-3ca0-4c30-945d-39d64ff4b980 (157.42.118.218) 3.420000ms referer=https://hub-binder.mybinder.ovh/user/shubhamsatyam54-ds-c--1a6fvl6r/notebooks/array%20.ipynb
+[I 06:09:44.983 NotebookApp] Kernel started: 70917128-014b-4b82-a09f-e96db18050c5, name: xcpp17
+[I 06:10:13.698 NotebookApp] Saving file at /array .ipynb
+[W 06:10:13.699 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:12:13.686 NotebookApp] Saving file at /array .ipynb
+[W 06:12:13.687 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:14:13.696 NotebookApp] Saving file at /array .ipynb
+[W 06:14:13.697 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:16:13.921 NotebookApp] Saving file at /array .ipynb
+[W 06:16:13.922 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:18:13.716 NotebookApp] Saving file at /array .ipynb
+[W 06:18:13.717 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:20:13.710 NotebookApp] Saving file at /array .ipynb
+[W 06:20:13.711 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:22:13.699 NotebookApp] Saving file at /array .ipynb
+[W 06:22:13.700 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:24:13.805 NotebookApp] Saving file at /array .ipynb
+[W 06:24:13.806 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:32:13.855 NotebookApp] Saving file at /array .ipynb
+[W 06:32:13.856 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:34:13.776 NotebookApp] Saving file at /array .ipynb
+[W 06:34:13.776 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:36:13.695 NotebookApp] Saving file at /array .ipynb
+[W 06:36:13.695 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:38:13.676 NotebookApp] Saving file at /array .ipynb
+[W 06:38:13.676 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:40:13.681 NotebookApp] Saving file at /array .ipynb
+[I 06:42:13.702 NotebookApp] Saving file at /array .ipynb
+[I 06:43:23.982 NotebookApp] Saving file at /array .ipynb
+[W 06:43:24.289 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:45:11.097 NotebookApp] Starting buffering for 70917128-014b-4b82-a09f-e96db18050c5:db828704c98d43fea1bb873a673e32cf
+[I 06:47:04.689 NotebookApp] Kernel shutdown: 70917128-014b-4b82-a09f-e96db18050c5
+[W 06:47:11.029 NotebookApp] Notebook inheritance types.ipynb is not trusted
+[I 06:47:11.552 NotebookApp] Kernel started: 119c5b0f-fdf6-4ed3-aacd-ce7c044de223, name: xcpp17
+[I 06:49:11.801 NotebookApp] Saving file at /inheritance types.ipynb
+[I 06:49:18.632 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1

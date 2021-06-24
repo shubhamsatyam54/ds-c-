@@ -216,3 +216,11 @@ kernel 7d9efa65-676d-4e9d-acc3-4f5a182600a1 restarted
 [I 19:36:36.371 NotebookApp] Saving file at /sorting.ipynb
 [I 19:44:36.382 NotebookApp] Saving file at /sorting.ipynb
 [I 19:46:36.360 NotebookApp] Saving file at /sorting.ipynb
+[W 19:56:49.014 NotebookApp] Culling 'idle' kernel 'xcpp17' (7d9efa65-676d-4e9d-acc3-4f5a182600a1) with 1 connections due to 635 seconds of inactivity.
+[I 19:56:49.017 NotebookApp] Kernel shutdown: 7d9efa65-676d-4e9d-acc3-4f5a182600a1
+[W 19:57:56.685 NotebookApp] Kernel '7d9efa65-676d-4e9d-acc3-4f5a182600a1' appears to have been culled or died unexpectedly, invalidating session '70387e61-5119-43f4-a1ba-316edf6cdf38'. The session has been removed.  Continuing...
+[I 19:57:56.703 NotebookApp] Kernel started: e96eaddf-1e53-4b56-9d9e-7e746ac52e6d, name: xcpp17
+[I 19:59:57.066 NotebookApp] Saving file at /sorting.ipynb
+[I 20:01:57.126 NotebookApp] Saving file at /sorting.ipynb
+[I 20:03:12.027 NotebookApp] Saving file at /sorting.ipynb
+[I 20:03:12.365 NotebookApp] Starting buffering for e96eaddf-1e53-4b56-9d9e-7e746ac52e6d:e36cb51b09f14ce988a89501619ef3b2

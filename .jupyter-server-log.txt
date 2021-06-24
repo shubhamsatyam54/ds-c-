@@ -122,3 +122,5 @@
 [I 06:49:18.632 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 06:53:44.582 NotebookApp] Notebook array  (2).ipynb is not trusted
+[I 06:53:45.188 NotebookApp] Kernel started: 586146a8-a190-4dfa-9055-b7214d184760, name: xcpp17

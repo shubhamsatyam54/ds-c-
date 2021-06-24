@@ -199,3 +199,20 @@ TermSocket.open: Opened 1
     NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
     NotebookApp.rate_limit_window=3.0 (secs)
     
+[I 19:25:18.009 NotebookApp] Saving file at /sorting.ipynb
+[I 19:26:34.302 NotebookApp] Starting buffering for 7d9efa65-676d-4e9d-acc3-4f5a182600a1:91eca1f81a3940ca82095376855f4f28
+[I 19:27:07.597 NotebookApp] Starting buffering for 7d9efa65-676d-4e9d-acc3-4f5a182600a1:e330220ebe7e4e71a01dedac167fc497
+[I 19:27:07.709 NotebookApp] Kernel restarted: 7d9efa65-676d-4e9d-acc3-4f5a182600a1
+[I 19:27:08.773 NotebookApp] Restoring connection for 7d9efa65-676d-4e9d-acc3-4f5a182600a1:e330220ebe7e4e71a01dedac167fc497
+[I 19:27:09.780 NotebookApp] Replaying 3 buffered messages
+[I 19:28:01.709 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 7d9efa65-676d-4e9d-acc3-4f5a182600a1 restarted
+[I 19:28:36.362 NotebookApp] Saving file at /sorting.ipynb
+[I 19:28:46.718 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 7d9efa65-676d-4e9d-acc3-4f5a182600a1 restarted
+[I 19:30:36.762 NotebookApp] Saving file at /sorting.ipynb
+[I 19:32:36.385 NotebookApp] Saving file at /sorting.ipynb
+[I 19:34:36.394 NotebookApp] Saving file at /sorting.ipynb
+[I 19:36:36.371 NotebookApp] Saving file at /sorting.ipynb
+[I 19:44:36.382 NotebookApp] Saving file at /sorting.ipynb
+[I 19:46:36.360 NotebookApp] Saving file at /sorting.ipynb

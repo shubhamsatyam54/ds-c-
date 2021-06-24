@@ -295,3 +295,14 @@ TermSocket.open: Opened 2
 [I 21:00:42.261 NotebookApp] Saving file at /inheritance types.ipynb
 [I 21:02:42.040 NotebookApp] Saving file at /inheritance types.ipynb
 [I 21:04:42.116 NotebookApp] Saving file at /inheritance types.ipynb
+[I 21:05:35.696 NotebookApp] Saving file at /inheritance types.ipynb
+[W 21:05:36.127 NotebookApp] Notebook inheritance types.ipynb is not trusted
+[I 21:08:42.030 NotebookApp] Saving file at /inheritance types.ipynb
+[I 21:10:42.042 NotebookApp] Saving file at /inheritance types.ipynb
+[I 21:14:42.037 NotebookApp] Saving file at /inheritance types.ipynb
+[W 21:14:51.057 NotebookApp] Notebook array .ipynb is not trusted
+[I 21:14:51.684 NotebookApp] Kernel started: d784f0dd-13ce-45e3-b807-1727d57863c1, name: xcpp17
+[W 21:15:49.013 NotebookApp] Culling 'idle' kernel 'xcpp17' (a4f3ca98-5395-4415-87eb-b83af67815cd) with 1 connections due to 656 seconds of inactivity.
+[I 21:15:49.021 NotebookApp] Kernel shutdown: a4f3ca98-5395-4415-87eb-b83af67815cd
+[I 21:20:52.161 NotebookApp] Saving file at /array .ipynb
+[I 21:22:52.125 NotebookApp] Saving file at /array .ipynb

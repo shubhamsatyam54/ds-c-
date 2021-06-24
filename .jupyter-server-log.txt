@@ -124,3 +124,13 @@ TermSocket.open: 1
 TermSocket.open: Opened 1
 [W 06:53:44.582 NotebookApp] Notebook array  (2).ipynb is not trusted
 [I 06:53:45.188 NotebookApp] Kernel started: 586146a8-a190-4dfa-9055-b7214d184760, name: xcpp17
+[W 06:55:38.656 NotebookApp] 400 GET /user/shubhamsatyam54-ds-c--1a6fvl6r/api/contents/file.ipynb?type=notebook&_=1624517737549 (157.35.243.252): Unreadable Notebook: /home/jovyan/file.ipynb NotJSONError("Notebook does not appear to be JSON: '\\n'...")
+[W 06:55:38.656 NotebookApp] Unreadable Notebook: /home/jovyan/file.ipynb NotJSONError("Notebook does not appear to be JSON: '\\n'...")
+[W 06:55:38.657 NotebookApp] 400 GET /user/shubhamsatyam54-ds-c--1a6fvl6r/api/contents/file.ipynb?type=notebook&_=1624517737549 (157.35.243.252) 2.980000ms referer=https://hub-binder.mybinder.ovh/user/shubhamsatyam54-ds-c--1a6fvl6r/notebooks/file.ipynb
+[W 06:55:51.036 NotebookApp] 400 GET /user/shubhamsatyam54-ds-c--1a6fvl6r/api/contents/file.ipynb?type=notebook&_=1624517749896 (157.35.243.252): Unreadable Notebook: /home/jovyan/file.ipynb NotJSONError("Notebook does not appear to be JSON: '\\n'...")
+[W 06:55:51.037 NotebookApp] Unreadable Notebook: /home/jovyan/file.ipynb NotJSONError("Notebook does not appear to be JSON: '\\n'...")
+[W 06:55:51.038 NotebookApp] 400 GET /user/shubhamsatyam54-ds-c--1a6fvl6r/api/contents/file.ipynb?type=notebook&_=1624517749896 (157.35.243.252) 3.340000ms referer=https://hub-binder.mybinder.ovh/user/shubhamsatyam54-ds-c--1a6fvl6r/notebooks/file.ipynb
+[W 06:56:05.065 NotebookApp] Notebook inheritance types (1).ipynb is not trusted
+[I 06:56:05.591 NotebookApp] Kernel started: e302cecc-4cc3-409a-9eaf-a3f16d5d19be, name: xcpp17
+[I 06:56:16.296 NotebookApp] Creating new notebook in 
+[I 06:56:18.167 NotebookApp] Kernel started: 86b02e80-9ae3-4f58-bac0-e3835f854ad8, name: xcpp17

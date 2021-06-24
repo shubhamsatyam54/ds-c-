@@ -247,3 +247,34 @@ Websocket closed
 [I 20:21:04.452 NotebookApp] New terminal with automatic name: 2
 TermSocket.open: 2
 TermSocket.open: Opened 2
+[I 20:22:28.307 NotebookApp] Starting buffering for c2b07619-33bb-47ab-8412-dadc85fad682:c213397516f24f01951b53aa5f4a9f2e
+[I 20:22:37.412 NotebookApp] Kernel shutdown: c2b07619-33bb-47ab-8412-dadc85fad682
+[I 20:22:41.670 NotebookApp] Kernel started: a4f3ca98-5395-4415-87eb-b83af67815cd, name: xcpp17
+[I 20:24:42.076 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:26:42.172 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:28:42.042 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:30:42.007 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:32:42.062 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:34:42.071 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:36:42.146 NotebookApp] Saving file at /inheritance types.ipynb
+[W 20:37:03.096 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 20:37:03.799 NotebookApp] iopub messages resumed
+[W 20:37:06.853 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    

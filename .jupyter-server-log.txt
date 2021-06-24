@@ -134,3 +134,12 @@ TermSocket.open: Opened 1
 [I 06:56:05.591 NotebookApp] Kernel started: e302cecc-4cc3-409a-9eaf-a3f16d5d19be, name: xcpp17
 [I 06:56:16.296 NotebookApp] Creating new notebook in 
 [I 06:56:18.167 NotebookApp] Kernel started: 86b02e80-9ae3-4f58-bac0-e3835f854ad8, name: xcpp17
+[W 06:57:51.251 NotebookApp] Notebook inheritance types (1).ipynb is not trusted
+[W 06:58:10.898 NotebookApp] Notebook array .ipynb is not trusted
+[I 06:58:11.356 NotebookApp] Kernel started: 1b17b6f6-3279-4021-97e8-6ac94261657c, name: xcpp17
+[I 06:58:18.821 NotebookApp] Saving file at /sorting.ipynb
+[W 06:58:45.597 NotebookApp] delete /array  (2).ipynb
+[W 06:58:45.603 NotebookApp] delete /file.ipynb
+[W 06:58:45.632 NotebookApp] delete /inheritance types (1).ipynb
+[I 06:58:45.638 NotebookApp] Kernel shutdown: 586146a8-a190-4dfa-9055-b7214d184760
+[I 06:58:45.744 NotebookApp] Kernel shutdown: e302cecc-4cc3-409a-9eaf-a3f16d5d19be

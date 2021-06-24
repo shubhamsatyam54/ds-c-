@@ -278,3 +278,20 @@ TermSocket.open: Opened 2
     NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
     NotebookApp.rate_limit_window=3.0 (secs)
     
+[I 20:38:43.455 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:39:02.547 NotebookApp] Starting buffering for a4f3ca98-5395-4415-87eb-b83af67815cd:96106e4eef814b06a435068585e34488
+[I 20:39:02.662 NotebookApp] Kernel restarted: a4f3ca98-5395-4415-87eb-b83af67815cd
+[I 20:39:03.817 NotebookApp] Restoring connection for a4f3ca98-5395-4415-87eb-b83af67815cd:96106e4eef814b06a435068585e34488
+[I 20:39:04.823 NotebookApp] Replaying 3 buffered messages
+[I 20:40:42.029 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:42:42.745 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:44:42.100 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:46:42.078 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:48:42.031 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:50:42.659 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:54:42.025 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:56:42.214 NotebookApp] Saving file at /inheritance types.ipynb
+[I 20:58:42.285 NotebookApp] Saving file at /inheritance types.ipynb
+[I 21:00:42.261 NotebookApp] Saving file at /inheritance types.ipynb
+[I 21:02:42.040 NotebookApp] Saving file at /inheritance types.ipynb
+[I 21:04:42.116 NotebookApp] Saving file at /inheritance types.ipynb

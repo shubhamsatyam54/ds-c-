@@ -224,3 +224,26 @@ kernel 7d9efa65-676d-4e9d-acc3-4f5a182600a1 restarted
 [I 20:01:57.126 NotebookApp] Saving file at /sorting.ipynb
 [I 20:03:12.027 NotebookApp] Saving file at /sorting.ipynb
 [I 20:03:12.365 NotebookApp] Starting buffering for e96eaddf-1e53-4b56-9d9e-7e746ac52e6d:e36cb51b09f14ce988a89501619ef3b2
+[I 20:03:57.441 NotebookApp] Starting buffering for e96eaddf-1e53-4b56-9d9e-7e746ac52e6d:467db51a10e449f88006e38da4970ea2
+[I 20:03:57.561 NotebookApp] Kernel restarted: e96eaddf-1e53-4b56-9d9e-7e746ac52e6d
+[I 20:03:58.628 NotebookApp] Restoring connection for e96eaddf-1e53-4b56-9d9e-7e746ac52e6d:467db51a10e449f88006e38da4970ea2
+[I 20:04:00.135 NotebookApp] Replaying 3 buffered messages
+[I 20:04:19.939 NotebookApp] Starting buffering for e96eaddf-1e53-4b56-9d9e-7e746ac52e6d:467db51a10e449f88006e38da4970ea2
+[I 20:04:23.754 NotebookApp] Kernel shutdown: e96eaddf-1e53-4b56-9d9e-7e746ac52e6d
+[I 20:04:28.619 NotebookApp] Kernel started: c2b07619-33bb-47ab-8412-dadc85fad682, name: xcpp17
+Websocket closed
+[I 20:06:17.927 NotebookApp] Starting buffering for c2b07619-33bb-47ab-8412-dadc85fad682:c213397516f24f01951b53aa5f4a9f2e
+[I 20:06:18.049 NotebookApp] Kernel restarted: c2b07619-33bb-47ab-8412-dadc85fad682
+[I 20:06:19.113 NotebookApp] Restoring connection for c2b07619-33bb-47ab-8412-dadc85fad682:c213397516f24f01951b53aa5f4a9f2e
+[I 20:06:20.622 NotebookApp] Replaying 3 buffered messages
+[I 20:06:29.015 NotebookApp] Saving file at /sorting.ipynb
+[I 20:07:36.238 NotebookApp] Starting buffering for c2b07619-33bb-47ab-8412-dadc85fad682:c213397516f24f01951b53aa5f4a9f2e
+[I 20:07:36.358 NotebookApp] Kernel restarted: c2b07619-33bb-47ab-8412-dadc85fad682
+[I 20:07:37.414 NotebookApp] Restoring connection for c2b07619-33bb-47ab-8412-dadc85fad682:c213397516f24f01951b53aa5f4a9f2e
+[I 20:07:38.923 NotebookApp] Replaying 3 buffered messages
+[I 20:08:29.635 NotebookApp] Saving file at /sorting.ipynb
+[I 20:14:28.996 NotebookApp] Saving file at /sorting.ipynb
+[I 20:16:29.686 NotebookApp] Saving file at /sorting.ipynb
+[I 20:21:04.452 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2

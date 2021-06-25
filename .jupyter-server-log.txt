@@ -339,3 +339,92 @@ TermSocket.open: Opened 2
 [I 05:41:00.186 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 05:42:57.336 NotebookApp] Saving file at /Untitled1.ipynb
+[I 05:44:57.284 NotebookApp] Saving file at /searching.ipynb
+[W 05:51:46.463 NotebookApp] Culling 'idle' kernel 'xcpp17' (37a12a7d-d78c-4b44-b4cd-768c8806c000) with 1 connections due to 657 seconds of inactivity.
+[I 05:51:46.464 NotebookApp] Kernel shutdown: 37a12a7d-d78c-4b44-b4cd-768c8806c000
+[W 05:51:46.567 NotebookApp] Culling 'idle' kernel 'xcpp17' (7752ab50-4a6f-4ecb-8653-780c6bca3577) with 1 connections due to 645 seconds of inactivity.
+[I 05:51:46.568 NotebookApp] Kernel shutdown: 7752ab50-4a6f-4ecb-8653-780c6bca3577
+[I 05:52:56.816 NotebookApp] Saving file at /searching.ipynb
+[I 05:54:56.826 NotebookApp] Saving file at /searching.ipynb
+[I 05:56:57.300 NotebookApp] Saving file at /searching.ipynb
+[I 06:26:56.805 NotebookApp] Saving file at /searching.ipynb
+Websocket closed
+[I 06:28:56.814 NotebookApp] Saving file at /searching.ipynb
+[W 06:29:46.820 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--bf3yfdbr/api/kernels/7752ab50-4a6f-4ecb-8653-780c6bca3577/channels?session_id=9ad3219c02954c7c9ff176bef428ecb2 (106.67.85.215): Kernel does not exist: 7752ab50-4a6f-4ecb-8653-780c6bca3577
+[W 06:29:46.829 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--bf3yfdbr/api/kernels/7752ab50-4a6f-4ecb-8653-780c6bca3577/channels?session_id=9ad3219c02954c7c9ff176bef428ecb2 (106.67.85.215) 10.960000ms referer=None
+[W 06:29:49.901 NotebookApp] Replacing stale connection: 7752ab50-4a6f-4ecb-8653-780c6bca3577:9ad3219c02954c7c9ff176bef428ecb2
+[W 06:30:49.901 NotebookApp] Replacing stale connection: 7752ab50-4a6f-4ecb-8653-780c6bca3577:9ad3219c02954c7c9ff176bef428ecb2
+[I 06:30:56.817 NotebookApp] Saving file at /searching.ipynb
+[E 06:31:15.975 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 7752ab50-4a6f-4ecb-8653-780c6bca3577)
+[E 06:31:15.980 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1624599619|30:username-hub-gke2-mybinder-org|44:ODRkN2UyODYwMjE0NDBlMjk0YzBkM2FmZGJkMjNiOTE=|cbcbdcb7b3568720318a80beed6c5e2d104d5ba6009ff44889836713e269d9c0\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--bf3yfdbr/notebooks/searching.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "106.67.85.215,::ffff:10.0.17.70",
+      "X-Real-Ip": "106.67.85.215",
+      "X-Request-Id": "dd78fbba1eb89d1092f0d8fbeca984cf",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 06:31:15.980 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--bf3yfdbr/api/kernels/7752ab50-4a6f-4ecb-8653-780c6bca3577/restart (106.67.85.215) 5.950000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--bf3yfdbr/notebooks/searching.ipynb
+[W 06:31:16.321 NotebookApp] 404 DELETE /user/shubhamsatyam54-ds-c--bf3yfdbr/api/sessions/fb0c25a6-8cfe-40b2-b141-820c447dd1c7 (106.67.85.215): Session not found: session_id='fb0c25a6-8cfe-40b2-b141-820c447dd1c7'
+[W 06:31:16.321 NotebookApp] Session not found: session_id='fb0c25a6-8cfe-40b2-b141-820c447dd1c7'
+[W 06:31:16.322 NotebookApp] 404 DELETE /user/shubhamsatyam54-ds-c--bf3yfdbr/api/sessions/fb0c25a6-8cfe-40b2-b141-820c447dd1c7 (106.67.85.215) 1.800000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--bf3yfdbr/notebooks/searching.ipynb
+[I 06:31:16.682 NotebookApp] Kernel started: 5c4496f7-119e-46f7-ab98-24fdb834c9ce, name: xcpp17
+[I 06:31:36.087 NotebookApp] Saving file at /searching.ipynb
+[W 06:31:37.177 NotebookApp] Notebook searching.ipynb is not trusted
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 06:33:25.388 NotebookApp] Starting buffering for 5c4496f7-119e-46f7-ab98-24fdb834c9ce:273e4db581654df48a63bc22820cfe9b
+[I 06:33:25.510 NotebookApp] Kernel restarted: 5c4496f7-119e-46f7-ab98-24fdb834c9ce
+[I 06:33:26.699 NotebookApp] Restoring connection for 5c4496f7-119e-46f7-ab98-24fdb834c9ce:273e4db581654df48a63bc22820cfe9b
+[I 06:33:27.705 NotebookApp] Replaying 3 buffered messages
+[I 06:33:38.044 NotebookApp] Saving file at /searching.ipynb
+[I 06:34:54.172 NotebookApp] Starting buffering for 5c4496f7-119e-46f7-ab98-24fdb834c9ce:273e4db581654df48a63bc22820cfe9b
+[I 06:34:54.294 NotebookApp] Kernel restarted: 5c4496f7-119e-46f7-ab98-24fdb834c9ce
+[I 06:34:55.405 NotebookApp] Restoring connection for 5c4496f7-119e-46f7-ab98-24fdb834c9ce:273e4db581654df48a63bc22820cfe9b
+[I 06:34:56.411 NotebookApp] Replaying 3 buffered messages
+[W 06:35:36.598 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--bf3yfdbr/api/kernels/37a12a7d-d78c-4b44-b4cd-768c8806c000/channels?session_id=2e87ad6e072d4c468a0a41ebcfd8ff06 (106.67.85.215): Kernel does not exist: 37a12a7d-d78c-4b44-b4cd-768c8806c000
+[W 06:35:36.600 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--bf3yfdbr/api/kernels/37a12a7d-d78c-4b44-b4cd-768c8806c000/channels?session_id=2e87ad6e072d4c468a0a41ebcfd8ff06 (106.67.85.215) 4.450000ms referer=None
+[I 06:35:38.031 NotebookApp] Saving file at /searching.ipynb
+[W 06:35:40.659 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[W 06:36:40.652 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[I 06:37:38.018 NotebookApp] Saving file at /searching.ipynb
+[W 06:37:40.651 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[W 06:38:46.710 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[W 06:39:46.711 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[W 06:40:46.713 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[W 06:41:56.660 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[W 06:42:56.744 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+Websocket closed
+[W 06:43:56.744 NotebookApp] Replacing stale connection: 37a12a7d-d78c-4b44-b4cd-768c8806c000:2e87ad6e072d4c468a0a41ebcfd8ff06
+[I 06:44:52.090 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2

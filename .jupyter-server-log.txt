@@ -614,3 +614,20 @@ kernel dca64de3-457f-4e91-a682-526901a1cb29 restarted
 [I 18:37:26.385 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 18:39:13.624 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:a8b28b6f59b344fe8cbfaa29287143f8
+[W 18:39:14.272 NotebookApp] Notebook searching.ipynb is not trusted
+[I 18:39:49.850 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:489b9f7502234893ad043c54c39b0bf7
+[I 18:39:54.899 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:39:56.292 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:489b9f7502234893ad043c54c39b0bf7
+[I 18:41:17.316 NotebookApp] Saving file at /searching.ipynb
+[I 18:43:15.618 NotebookApp] Saving file at /searching.ipynb
+[I 18:45:15.690 NotebookApp] Saving file at /searching.ipynb
+[I 18:47:16.011 NotebookApp] Saving file at /searching.ipynb
+[I 18:49:15.640 NotebookApp] Saving file at /searching.ipynb
+[I 18:49:33.899 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel dca64de3-457f-4e91-a682-526901a1cb29 restarted
+[I 18:50:20.365 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:489b9f7502234893ad043c54c39b0bf7
+[I 18:50:20.490 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:50:21.684 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:489b9f7502234893ad043c54c39b0bf7
+[I 18:50:22.691 NotebookApp] Replaying 3 buffered messages
+[I 18:51:15.631 NotebookApp] Saving file at /searching.ipynb

@@ -482,3 +482,135 @@ TermSocket.open: Opened 1
 [I 12:36:26.301 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 2021-06-26 17:46:35.639 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-26 17:46:35.639 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-26 17:46:35.639 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-26 17:46:35.639 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-06-26 17:46:35.648 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-06-26 17:46:35.648 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 17:46:35.658 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 17:46:35.660 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 17:46:35.661 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 17:46:35.661 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 17:46:35.661 NotebookApp] http://jupyter-shubhamsatyam54-2dds-2dc-2d-2dic6coebm:8888/user/shubhamsatyam54-ds-c--ic6coebm/?token=...
+[I 17:46:35.661 NotebookApp]  or http://127.0.0.1:8888/user/shubhamsatyam54-ds-c--ic6coebm/?token=...
+[I 17:46:35.661 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:46:35.666 NotebookApp] No web browser found: could not locate runnable browser.
+[I 17:46:36.210 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--ic6coebm/ (10.0.5.20) 0.920000ms
+[I 17:46:40.762 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--ic6coebm/?token=7U3DZ7DMQ56Pfo5fxLad1w (106.67.0.236) 0.690000ms
+[W 17:47:11.448 NotebookApp] Notebook searching.ipynb is not trusted
+[I 17:47:11.964 NotebookApp] Kernel started: fc10a4f1-d537-46f4-9cbf-29fe3c4e1380, name: xcpp17
+[I 17:47:11.964 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 17:47:11.964 NotebookApp] Culling kernels even with connected clients
+[I 17:49:12.277 NotebookApp] Saving file at /searching.ipynb
+[W 17:51:08.507 NotebookApp] Notebook sorting.ipynb is not trusted
+[I 17:51:09.362 NotebookApp] Kernel started: 26e27fd7-fd03-405a-a413-aa0607ab58d9, name: xcpp17
+[I 17:51:12.870 NotebookApp] Saving file at /searching.ipynb
+[I 17:53:12.379 NotebookApp] Saving file at /searching.ipynb
+[I 17:55:12.269 NotebookApp] Saving file at /searching.ipynb
+[I 17:57:12.299 NotebookApp] Saving file at /searching.ipynb
+[I 17:59:13.138 NotebookApp] Saving file at /searching.ipynb
+[W 18:01:11.966 NotebookApp] Culling 'idle' kernel 'xcpp17' (26e27fd7-fd03-405a-a413-aa0607ab58d9) with 1 connections due to 600 seconds of inactivity.
+[I 18:01:11.966 NotebookApp] Kernel shutdown: 26e27fd7-fd03-405a-a413-aa0607ab58d9
+[I 18:01:12.324 NotebookApp] Saving file at /searching.ipynb
+[I 18:03:12.344 NotebookApp] Saving file at /searching.ipynb
+[I 18:05:12.278 NotebookApp] Saving file at /searching.ipynb
+[W 18:07:11.965 NotebookApp] Culling 'idle' kernel 'xcpp17' (fc10a4f1-d537-46f4-9cbf-29fe3c4e1380) with 1 connections due to 645 seconds of inactivity.
+[I 18:07:11.965 NotebookApp] Kernel shutdown: fc10a4f1-d537-46f4-9cbf-29fe3c4e1380
+[I 18:07:12.271 NotebookApp] Saving file at /searching.ipynb
+[I 18:07:38.132 NotebookApp] Saving file at /searching.ipynb
+[W 18:07:39.183 NotebookApp] Notebook searching.ipynb is not trusted
+[W 18:07:39.842 NotebookApp] Kernel 'fc10a4f1-d537-46f4-9cbf-29fe3c4e1380' appears to have been culled or died unexpectedly, invalidating session '7f2590ce-a553-43e9-8b7b-842966512b68'. The session has been removed.  Continuing...
+[I 18:07:39.853 NotebookApp] Kernel started: dca64de3-457f-4e91-a682-526901a1cb29, name: xcpp17
+[I 18:08:31.702 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:08:31.708 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:08:32.857 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:08:33.864 NotebookApp] Replaying 1 buffered messages
+[I 18:09:05.588 NotebookApp] Kernel interrupted: dca64de3-457f-4e91-a682-526901a1cb29
+[W 18:09:07.315 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 18:09:07.702 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel dca64de3-457f-4e91-a682-526901a1cb29 restarted
+[W 18:09:08.722 NotebookApp] iopub messages resumed
+[W 18:09:09.279 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 18:09:09.678 NotebookApp] iopub messages resumed
+[W 18:09:10.152 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 18:09:25.788 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:09:25.793 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:09:26.809 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:09:27.817 NotebookApp] Replaying 1 buffered messages
+[I 18:09:40.273 NotebookApp] Saving file at /searching.ipynb
+[I 18:11:40.208 NotebookApp] Saving file at /searching.ipynb
+[I 18:13:40.430 NotebookApp] Saving file at /searching.ipynb
+[I 18:15:40.212 NotebookApp] Saving file at /searching.ipynb
+[I 18:17:37.757 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:17:37.877 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:17:39.257 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:17:39.762 NotebookApp] Replaying 3 buffered messages
+[I 18:17:40.257 NotebookApp] Saving file at /searching.ipynb
+[I 18:19:40.226 NotebookApp] Saving file at /searching.ipynb
+[I 18:21:40.213 NotebookApp] Saving file at /searching.ipynb
+[I 18:21:59.780 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:21:59.897 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:22:01.960 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:22:02.466 NotebookApp] Replaying 3 buffered messages
+[I 18:23:40.214 NotebookApp] Saving file at /searching.ipynb
+[I 18:25:40.587 NotebookApp] Saving file at /searching.ipynb
+[I 18:27:40.208 NotebookApp] Saving file at /searching.ipynb
+[I 18:29:40.796 NotebookApp] Saving file at /searching.ipynb
+[I 18:31:40.279 NotebookApp] Saving file at /searching.ipynb
+[I 18:32:17.660 NotebookApp] Kernel interrupted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:32:17.897 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel dca64de3-457f-4e91-a682-526901a1cb29 restarted
+[I 18:32:24.512 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:32:24.633 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:32:26.053 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:32:26.558 NotebookApp] Replaying 3 buffered messages
+[I 18:32:54.066 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:32:54.181 NotebookApp] Kernel restarted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:32:55.334 NotebookApp] Restoring connection for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[I 18:32:56.340 NotebookApp] Replaying 3 buffered messages
+[I 18:33:17.165 NotebookApp] Starting buffering for dca64de3-457f-4e91-a682-526901a1cb29:6fa9b3a4f87149de8e853ccc9a86aef6
+[W 18:33:17.835 NotebookApp] Notebook searching.ipynb is not trusted
+[I 18:37:20.369 NotebookApp] Saving file at /searching.ipynb
+[W 18:37:20.370 NotebookApp] Notebook searching.ipynb is not trusted
+[I 18:37:20.825 NotebookApp] Kernel interrupted: dca64de3-457f-4e91-a682-526901a1cb29
+[I 18:37:21.182 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel dca64de3-457f-4e91-a682-526901a1cb29 restarted
+[I 18:37:26.385 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1

@@ -1085,3 +1085,165 @@ kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
 [W 06:53:25.841 NotebookApp] 404 DELETE /user/shubhamsatyam54-ds-c--1mxspgjv/api/sessions/53adb452-46aa-4eec-9a8a-07e6aa42c2f9 (1.187.125.195) 2.460000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/stack.ipynb
 [I 06:53:26.328 NotebookApp] Kernel started: e5f0365e-8891-43b5-8287-8fdc903dd0cc, name: xcpp17
 [I 06:55:11.387 NotebookApp] Saving file at /stack.ipynb
+[W 2021-06-28 11:52:11.550 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.550 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.550 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.550 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.550 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.550 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.551 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.551 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-28 11:52:11.551 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-28 11:52:11.551 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.551 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 11:52:11.551 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-06-28 11:52:11.560 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-06-28 11:52:11.561 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 11:52:11.573 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 11:52:11.576 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 11:52:11.577 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 11:52:11.577 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 11:52:11.577 NotebookApp] http://jupyter-shubhamsatyam54-2dds-2dc-2d-2d7tqmfsr0:8888/user/shubhamsatyam54-ds-c--7tqmfsr0/?token=...
+[I 11:52:11.577 NotebookApp]  or http://127.0.0.1:8888/user/shubhamsatyam54-ds-c--7tqmfsr0/?token=...
+[I 11:52:11.577 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:52:11.583 NotebookApp] No web browser found: could not locate runnable browser.
+[I 11:52:11.586 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--7tqmfsr0/ (10.0.5.20) 0.770000ms
+[I 11:52:13.003 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--7tqmfsr0/?token=1LY1ZJUaT4aSv_u7JBJJFA (49.15.151.192) 1.010000ms
+[W 11:52:30.396 NotebookApp] Notebook Circular Queue.ipynb is not trusted
+[I 11:52:30.875 NotebookApp] Kernel started: 425e7343-e5e7-475b-baaa-a2f91256dcec, name: xcpp17
+[I 11:52:30.876 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 11:52:30.876 NotebookApp] Culling kernels even with connected clients
+[W 11:53:15.126 NotebookApp] Notebook Queue.ipynb is not trusted
+[I 11:53:15.672 NotebookApp] Kernel started: ec590746-46db-4aff-ae8d-d054b7582b1a, name: xcpp17
+[I 11:54:31.651 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 11:57:39.872 NotebookApp] WebSocket ping timeout after 119669 ms.
+[I 11:57:44.874 NotebookApp] Starting buffering for ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[W 11:58:04.030 NotebookApp] WebSocket ping timeout after 119490 ms.
+[I 11:58:09.032 NotebookApp] Starting buffering for 425e7343-e5e7-475b-baaa-a2f91256dcec:19a2cc3f77c545cfa80226afc23808a3
+[I 11:59:48.948 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 11:59:50.162 NotebookApp] Notebook Circular Queue.ipynb is not trusted
+[I 12:00:15.046 NotebookApp] Kernel restarted: 425e7343-e5e7-475b-baaa-a2f91256dcec
+[I 12:00:19.144 NotebookApp] Restoring connection for ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[I 12:00:20.682 NotebookApp] Discarding 3 buffered messages for 425e7343-e5e7-475b-baaa-a2f91256dcec:19a2cc3f77c545cfa80226afc23808a3
+[W 12:00:21.815 NotebookApp] Replacing stale connection: 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[I 12:00:22.203 NotebookApp] Starting buffering for 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[I 12:00:22.204 NotebookApp] Restoring connection for 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[I 12:00:24.623 NotebookApp] Starting buffering for 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[I 12:00:25.387 NotebookApp] Restoring connection for 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[I 12:01:51.622 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:03:50.971 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:05:50.924 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:07:50.925 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:09:50.955 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 12:10:30.877 NotebookApp] Culling 'idle' kernel 'xcpp17' (425e7343-e5e7-475b-baaa-a2f91256dcec) with 1 connections due to 605 seconds of inactivity.
+[I 12:10:30.878 NotebookApp] Kernel shutdown: 425e7343-e5e7-475b-baaa-a2f91256dcec
+[W 12:10:30.979 NotebookApp] Culling 'idle' kernel 'xcpp17' (ec590746-46db-4aff-ae8d-d054b7582b1a) with 1 connections due to 611 seconds of inactivity.
+[I 12:10:30.980 NotebookApp] Kernel shutdown: ec590746-46db-4aff-ae8d-d054b7582b1a
+[I 12:11:50.961 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:13:51.519 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:23:50.925 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:25:50.929 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 12:28:25.389 NotebookApp] WebSocket ping timeout after 119664 ms.
+[W 12:31:23.995 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--7tqmfsr0/api/kernels/425e7343-e5e7-475b-baaa-a2f91256dcec/channels?session_id=3e307f7822e94d05884c078ac6556339 (157.35.244.12): Kernel does not exist: 425e7343-e5e7-475b-baaa-a2f91256dcec
+[W 12:31:24.010 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--7tqmfsr0/api/kernels/425e7343-e5e7-475b-baaa-a2f91256dcec/channels?session_id=3e307f7822e94d05884c078ac6556339 (157.35.244.12) 17.530000ms referer=None
+[W 12:31:25.170 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--7tqmfsr0/api/kernels/ec590746-46db-4aff-ae8d-d054b7582b1a/channels?session_id=11d0eb0945dd404789dfb9f0e02ad6e2 (157.42.124.167): Kernel does not exist: ec590746-46db-4aff-ae8d-d054b7582b1a
+[W 12:31:25.171 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--7tqmfsr0/api/kernels/ec590746-46db-4aff-ae8d-d054b7582b1a/channels?session_id=11d0eb0945dd404789dfb9f0e02ad6e2 (157.42.124.167) 4.910000ms referer=None
+[W 12:31:29.542 NotebookApp] Replacing stale connection: 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[W 12:32:14.700 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[W 12:32:29.542 NotebookApp] Replacing stale connection: 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[W 12:32:50.021 NotebookApp] Kernel '425e7343-e5e7-475b-baaa-a2f91256dcec' appears to have been culled or died unexpectedly, invalidating session 'e8caee90-8e5a-4723-9825-46f0c09fb94d'. The session has been removed.  Continuing...
+[I 12:32:50.039 NotebookApp] Kernel started: 85a7cd97-c18e-471c-9300-c3e087a0b6d4, name: xcpp17
+[W 12:33:14.699 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[W 12:33:29.543 NotebookApp] Replacing stale connection: 425e7343-e5e7-475b-baaa-a2f91256dcec:3e307f7822e94d05884c078ac6556339
+[W 12:34:14.703 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[I 12:34:50.399 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 12:35:00.239 NotebookApp] New terminal with automatic name: 1
+[E 12:35:01.193 NotebookApp] Uncaught exception GET /user/shubhamsatyam54-ds-c--7tqmfsr0/api/metrics/v1 (157.42.124.167)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='GET', uri='/user/shubhamsatyam54-ds-c--7tqmfsr0/api/metrics/v1', version='HTTP/1.1', remote_ip='157.42.124.167')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 447, in wrapper
+        ret = self._cache[fun]
+    AttributeError: 'Process' object has no attribute '_cache'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1576, in wrapper
+        return fun(self, *args, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1810, in memory_info
+        with open_binary("%s/%s/statm" % (self._procfs_path, self.pid)) as f:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 711, in open_binary
+        return open(fname, "rb", **kwargs)
+    FileNotFoundError: [Errno 2] No such file or directory: '/proc/879/statm'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/jupyter_resource_usage/api.py", line 31, in get
+        rss = sum([p.memory_info().rss for p in all_processes])
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/jupyter_resource_usage/api.py", line 31, in <listcomp>
+        rss = sum([p.memory_info().rss for p in all_processes])
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 450, in wrapper
+        return fun(self)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/__init__.py", line 1054, in memory_info
+        return self._proc.memory_info()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1583, in wrapper
+        raise NoSuchProcess(self.pid, self._name)
+    psutil.NoSuchProcess: psutil.NoSuchProcess process no longer exists (pid=879)
+[E 12:35:01.204 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1624881133|30:username-hub-gke2-mybinder-org|44:ZGEyZGFlZDM5MTMwNDYwMDkzN2ZjOTlkNmUxYWY5MDU=|d80f481f36c9893992227a248b3372e2fbaddc0063d2c8d16b5ac7d3bb68956d\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "If-None-Match": "\"9da13941098244805c472170c80f62338931bea9\"",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--7tqmfsr0/notebooks/Circular%20Queue.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "157.42.124.167,::ffff:10.0.15.52",
+      "X-Real-Ip": "157.42.124.167",
+      "X-Request-Id": "4cb87a5362b119aea3c4910204e1558a",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 12:35:01.205 NotebookApp] 500 GET /user/shubhamsatyam54-ds-c--7tqmfsr0/api/metrics/v1 (157.42.124.167) 13.010000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--7tqmfsr0/notebooks/Circular%20Queue.ipynb
+[I 12:35:06.422 NotebookApp] Kernel restarted: 85a7cd97-c18e-471c-9300-c3e087a0b6d4
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 12:35:19.299 NotebookApp] Kernel restarted: 85a7cd97-c18e-471c-9300-c3e087a0b6d4
+[W 12:35:19.763 NotebookApp] Replacing stale connection: 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:20.116 NotebookApp] Starting buffering for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:20.119 NotebookApp] Restoring connection for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[W 12:35:21.883 NotebookApp] Replacing stale connection: 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:22.188 NotebookApp] Starting buffering for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:22.189 NotebookApp] Restoring connection for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[W 12:35:24.134 NotebookApp] Replacing stale connection: 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:24.633 NotebookApp] Starting buffering for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:24.634 NotebookApp] Restoring connection for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[W 12:35:26.486 NotebookApp] Replacing stale connection: 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:27.112 NotebookApp] Starting buffering for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:27.113 NotebookApp] Restoring connection for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:30.188 NotebookApp] Starting buffering for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:31.288 NotebookApp] Restoring connection for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:32.178 NotebookApp] Starting buffering for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[I 12:35:33.723 NotebookApp] Restoring connection for 85a7cd97-c18e-471c-9300-c3e087a0b6d4:df757fd16bc2453292b7adad6b1e2209
+[W 12:35:35.530 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[W 12:36:35.529 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[I 12:36:50.494 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 12:37:35.529 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[I 12:38:50.442 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 12:39:09.538 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[W 12:40:09.539 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[I 12:40:50.948 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 12:41:09.539 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2
+[W 12:43:16.576 NotebookApp] Replacing stale connection: ec590746-46db-4aff-ae8d-d054b7582b1a:11d0eb0945dd404789dfb9f0e02ad6e2

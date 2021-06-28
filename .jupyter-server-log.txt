@@ -1296,3 +1296,52 @@ kernel 85a7cd97-c18e-471c-9300-c3e087a0b6d4 restarted
 [I 13:44:51.276 NotebookApp] Saving file at /Circular Queue.ipynb
 [I 13:46:50.414 NotebookApp] Saving file at /Circular Queue.ipynb
 [I 13:48:50.509 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 2021-06-28 16:37:42.721 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.721 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.721 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.721 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.722 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.722 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.722 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.722 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-28 16:37:42.722 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-28 16:37:42.722 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.722 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-28 16:37:42.722 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-06-28 16:37:42.738 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-06-28 16:37:42.738 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:37:42.751 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 16:37:42.753 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 16:37:42.754 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:37:42.755 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:37:42.755 NotebookApp] http://jupyter-shubhamsatyam54-2dds-2dc-2d-2df4a7lcbh:8888/user/shubhamsatyam54-ds-c--f4a7lcbh/?token=...
+[I 16:37:42.755 NotebookApp]  or http://127.0.0.1:8888/user/shubhamsatyam54-ds-c--f4a7lcbh/?token=...
+[I 16:37:42.755 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:37:42.760 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:37:44.132 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--f4a7lcbh/ (10.0.5.20) 1.080000ms
+[I 16:38:13.135 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--f4a7lcbh/?token=B16qUv6-QfyHQ0-GwHgezg (157.35.244.12) 1.140000ms
+[W 16:38:32.786 NotebookApp] Notebook Queue.ipynb is not trusted
+[I 16:38:33.386 NotebookApp] Kernel started: edf8e1dd-2fdd-4773-a782-139ec268725d, name: xcpp17
+[I 16:38:33.386 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 16:38:33.387 NotebookApp] Culling kernels even with connected clients
+[W 16:38:33.586 NotebookApp] Notebook Circular Queue.ipynb is not trusted
+[I 16:38:34.298 NotebookApp] Kernel started: 8704f449-14d9-4c55-a6d0-9c76ec0cf1fe, name: xcpp17
+[I 16:38:34.479 NotebookApp] Kernel started: 64d8a19f-c85a-4730-b63b-2d32a89b273c, name: xcpp17
+[I 16:38:47.807 NotebookApp] Kernel restarted: 64d8a19f-c85a-4730-b63b-2d32a89b273c
+[W 16:38:51.949 NotebookApp] Replacing stale connection: 64d8a19f-c85a-4730-b63b-2d32a89b273c:c572c98f0e69413da0958ea9f4f53abd
+[I 16:38:52.260 NotebookApp] Starting buffering for 64d8a19f-c85a-4730-b63b-2d32a89b273c:c572c98f0e69413da0958ea9f4f53abd
+[I 16:38:52.262 NotebookApp] Restoring connection for 64d8a19f-c85a-4730-b63b-2d32a89b273c:c572c98f0e69413da0958ea9f4f53abd
+[I 16:38:53.588 NotebookApp] Starting buffering for 64d8a19f-c85a-4730-b63b-2d32a89b273c:c572c98f0e69413da0958ea9f4f53abd
+[I 16:38:54.249 NotebookApp] Restoring connection for 64d8a19f-c85a-4730-b63b-2d32a89b273c:c572c98f0e69413da0958ea9f4f53abd
+[I 16:39:07.492 NotebookApp] Saving file at /stack.ipynb
+[W 16:39:43.952 NotebookApp] Notebook Queue.ipynb is not trusted
+[I 16:40:35.074 NotebookApp] Saving file at /Circular Queue.ipynb
+[I 16:41:59.071 NotebookApp] Starting buffering for 8704f449-14d9-4c55-a6d0-9c76ec0cf1fe:685650aead7a49fe8582769294f425c2
+[I 16:41:59.183 NotebookApp] Kernel restarted: 8704f449-14d9-4c55-a6d0-9c76ec0cf1fe
+[I 16:42:00.680 NotebookApp] Restoring connection for 8704f449-14d9-4c55-a6d0-9c76ec0cf1fe:685650aead7a49fe8582769294f425c2
+[I 16:42:01.686 NotebookApp] Replaying 3 buffered messages
+[I 16:42:09.834 NotebookApp] Saving file at /Circular Queue.ipynb
+[W 16:42:10.322 NotebookApp] Notebook Circular Queue.ipynb is not trusted
+[I 16:42:28.517 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1

@@ -998,3 +998,39 @@ TermSocket.open: Opened 3
 [I 05:58:16.179 NotebookApp] Creating new file in 
 [I 05:58:27.479 NotebookApp] Saving file at /stack_import.ipynb
 [I 05:59:34.025 NotebookApp] Saving file at /untitled.txt
+[I 06:01:00.653 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 06:01:01.066 NotebookApp] Starting buffering for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:399a8fc262e141aa8ea3b6979fb1ba7b
+[W 06:01:01.896 NotebookApp] Notebook tower of hanoi.ipynb is not trusted
+[I 06:01:24.463 NotebookApp] Kernel restarted: 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f
+[I 06:01:25.912 NotebookApp] Discarding 3 buffered messages for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:399a8fc262e141aa8ea3b6979fb1ba7b
+[W 06:01:32.213 NotebookApp] Replacing stale connection: 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:4ec9ce6bee2e448ebdcd89970cf8ec02
+[I 06:01:32.601 NotebookApp] Starting buffering for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:4ec9ce6bee2e448ebdcd89970cf8ec02
+[I 06:01:32.603 NotebookApp] Restoring connection for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:4ec9ce6bee2e448ebdcd89970cf8ec02
+[I 06:01:33.511 NotebookApp] Starting buffering for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:4ec9ce6bee2e448ebdcd89970cf8ec02
+[I 06:01:35.765 NotebookApp] Restoring connection for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:4ec9ce6bee2e448ebdcd89970cf8ec02
+[I 06:01:35.765 NotebookApp] Replaying 17 buffered messages
+[I 06:01:36.464 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 06:03:02.757 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 06:05:02.758 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 06:07:05.164 NotebookApp] Saving file at /tower of hanoi.ipynb
+[W 06:07:21.276 NotebookApp] Culling 'idle' kernel 'xcpp17' (a658ebcd-088e-4037-a0d1-5a00a6125784) with 1 connections due to 626 seconds of inactivity.
+[I 06:07:21.276 NotebookApp] Kernel shutdown: a658ebcd-088e-4037-a0d1-5a00a6125784
+[I 06:09:02.785 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 06:11:03.329 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 06:13:02.779 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 06:13:39.677 NotebookApp] Creating new notebook in 
+[I 06:13:42.655 NotebookApp] Kernel started: 84b2521f-7522-41f1-ae8c-2719c1b97ea8, name: xcpp17
+[I 06:15:04.690 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 06:15:43.349 NotebookApp] Saving file at /Queue.ipynb
+[W 06:16:21.276 NotebookApp] Culling 'idle' kernel 'xcpp17' (8f15ee4f-2e4d-4ab8-8a70-50139ee3943f) with 1 connections due to 621 seconds of inactivity.
+[I 06:16:21.277 NotebookApp] Kernel shutdown: 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f
+[I 06:17:43.026 NotebookApp] Saving file at /Queue.ipynb
+[I 06:19:43.046 NotebookApp] Saving file at /Queue.ipynb
+[I 06:21:43.075 NotebookApp] Saving file at /Queue.ipynb
+[I 06:23:43.052 NotebookApp] Saving file at /Queue.ipynb
+[I 06:25:43.169 NotebookApp] Saving file at /Queue.ipynb
+[I 06:27:43.025 NotebookApp] Saving file at /Queue.ipynb
+[I 06:29:43.069 NotebookApp] Saving file at /Queue.ipynb
+[I 06:31:43.768 NotebookApp] Saving file at /Queue.ipynb
+[I 06:33:44.147 NotebookApp] Saving file at /Queue.ipynb

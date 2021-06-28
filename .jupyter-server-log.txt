@@ -777,3 +777,224 @@ kernel f0178919-5880-447e-964e-08916aef84b7 restarted
 [I 05:02:41.339 NotebookApp] New terminal with automatic name: 2
 TermSocket.open: 2
 TermSocket.open: Opened 2
+Websocket closed
+[I 05:03:55.430 NotebookApp] Starting buffering for f0178919-5880-447e-964e-08916aef84b7:11097c1708e6429a9b59509dd388e37d
+[I 05:04:00.234 NotebookApp] Creating new notebook in 
+[I 05:04:03.016 NotebookApp] Kernel started: 2a97ca2f-a38d-468d-8586-8c55496d2ec3, name: xcpp17
+[W 05:05:21.276 NotebookApp] Culling 'idle' kernel 'xcpp17' (f0178919-5880-447e-964e-08916aef84b7) with 0 connections due to 611 seconds of inactivity.
+[I 05:05:21.277 NotebookApp] Kernel shutdown: f0178919-5880-447e-964e-08916aef84b7
+[I 05:06:04.346 NotebookApp] Saving file at /Untitled1.ipynb
+[I 05:08:04.303 NotebookApp] Saving file at /Untitled1.ipynb
+[W 05:09:10.214 NotebookApp] Notebook stack.ipynb is not trusted
+[I 05:09:10.963 NotebookApp] Kernel started: c59c530f-6f9b-4a88-95e8-24795e170e63, name: xcpp17
+[W 05:09:18.603 NotebookApp] Notebook stack.ipynb is not trusted
+[I 05:12:04.344 NotebookApp] Saving file at /tower of hanoi.ipynb
+[W 05:17:21.277 NotebookApp] Culling 'idle' kernel 'xcpp17' (2a97ca2f-a38d-468d-8586-8c55496d2ec3) with 1 connections due to 653 seconds of inactivity.
+[I 05:17:21.277 NotebookApp] Kernel shutdown: 2a97ca2f-a38d-468d-8586-8c55496d2ec3
+[W 05:19:21.276 NotebookApp] Culling 'idle' kernel 'xcpp17' (c59c530f-6f9b-4a88-95e8-24795e170e63) with 1 connections due to 607 seconds of inactivity.
+[I 05:19:21.277 NotebookApp] Kernel shutdown: c59c530f-6f9b-4a88-95e8-24795e170e63
+[I 05:34:51.440 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:36:03.376 NotebookApp] Saving file at /tower of hanoi.ipynb
+[E 05:37:53.622 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 2a97ca2f-a38d-468d-8586-8c55496d2ec3)
+[E 05:37:53.623 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1624852117|30:username-hub-gke2-mybinder-org|44:ZjBmYTI4ZWYyZjI5NGM4NTgxMzgyOTgxNTM2ZTgyZDE=|3adce785666ddc05f9c01d0eb936d9a2c26970ad63a83f734915b10310a2fc75\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/tower%20of%20hanoi.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "1.187.125.195,::ffff:10.0.17.70",
+      "X-Real-Ip": "1.187.125.195",
+      "X-Request-Id": "0772d6879a79d67801d72f41a42153e0",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 05:37:53.623 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--1mxspgjv/api/kernels/2a97ca2f-a38d-468d-8586-8c55496d2ec3/restart (1.187.125.195) 2.000000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/tower%20of%20hanoi.ipynb
+[W 05:37:54.011 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--1mxspgjv/api/sessions/7ec4c6c2-ba4e-4c4b-ac0c-fa069933076e (1.187.125.195): Kernel deleted before session
+[W 05:37:54.012 NotebookApp] Kernel deleted before session
+[W 05:37:54.012 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--1mxspgjv/api/sessions/7ec4c6c2-ba4e-4c4b-ac0c-fa069933076e (1.187.125.195) 1.990000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/tower%20of%20hanoi.ipynb
+[I 05:37:54.423 NotebookApp] Kernel started: 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f, name: xcpp17
+[I 05:38:04.045 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:38:09.422 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:38:15.434 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:38:24.444 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:38:42.454 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:38:57.464 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:39:24.473 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:39:27.862 NotebookApp] Starting buffering for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:399a8fc262e141aa8ea3b6979fb1ba7b
+[I 05:39:27.982 NotebookApp] Kernel restarted: 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f
+[I 05:39:29.258 NotebookApp] Restoring connection for 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f:399a8fc262e141aa8ea3b6979fb1ba7b
+[I 05:39:30.265 NotebookApp] Replaying 3 buffered messages
+[I 05:39:48.982 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:40:04.301 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:40:21.994 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:40:49.004 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 8f15ee4f-2e4d-4ab8-8a70-50139ee3943f restarted
+[I 05:42:03.505 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:44:04.330 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:50:04.338 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:52:04.349 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:54:03.372 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:55:58.974 NotebookApp] Copying stack.ipynb to 
+[W 05:55:58.979 NotebookApp] Notebook stack.ipynb is not trusted
+[I 05:56:04.310 NotebookApp] Saving file at /tower of hanoi.ipynb
+[I 05:56:24.711 NotebookApp] Kernel started: a658ebcd-088e-4037-a0d1-5a00a6125784, name: xcpp17
+[I 05:57:15.818 NotebookApp] Creating new notebook in 
+[I 05:57:20.238 NotebookApp] Kernel started: 14748ac2-7843-49a2-b080-83e93e407915, name: xcpp17
+[I 05:57:25.535 NotebookApp] Starting buffering for 14748ac2-7843-49a2-b080-83e93e407915:6862d1bbc6a1413f8b175360a9c5ac05
+[I 05:57:31.844 NotebookApp] Kernel shutdown: 14748ac2-7843-49a2-b080-83e93e407915
+[W 05:57:31.948 NotebookApp] delete /Untitled1.ipynb
+[I 05:57:35.806 NotebookApp] New terminal with automatic name: 3
+[E 05:57:36.730 NotebookApp] Uncaught exception GET /user/shubhamsatyam54-ds-c--1mxspgjv/api/metrics/v1 (1.187.125.195)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='GET', uri='/user/shubhamsatyam54-ds-c--1mxspgjv/api/metrics/v1', version='HTTP/1.1', remote_ip='1.187.125.195')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 447, in wrapper
+        ret = self._cache[fun]
+    AttributeError: 'Process' object has no attribute '_cache'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1576, in wrapper
+        return fun(self, *args, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1810, in memory_info
+        with open_binary("%s/%s/statm" % (self._procfs_path, self.pid)) as f:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 711, in open_binary
+        return open(fname, "rb", **kwargs)
+    FileNotFoundError: [Errno 2] No such file or directory: '/proc/2315/statm'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/jupyter_resource_usage/api.py", line 31, in get
+        rss = sum([p.memory_info().rss for p in all_processes])
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/jupyter_resource_usage/api.py", line 31, in <listcomp>
+        rss = sum([p.memory_info().rss for p in all_processes])
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 450, in wrapper
+        return fun(self)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/__init__.py", line 1054, in memory_info
+        return self._proc.memory_info()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1583, in wrapper
+        raise NoSuchProcess(self.pid, self._name)
+    psutil.NoSuchProcess: psutil.NoSuchProcess process no longer exists (pid=2315)
+[E 05:57:36.744 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1624852117|30:username-hub-gke2-mybinder-org|44:ZjBmYTI4ZWYyZjI5NGM4NTgxMzgyOTgxNTM2ZTgyZDE=|3adce785666ddc05f9c01d0eb936d9a2c26970ad63a83f734915b10310a2fc75\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "If-None-Match": "\"224c5b9bf3b5ecd6f4492c5af27a6fe2ec95605b\"",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/stack.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "1.187.125.195,::ffff:10.0.17.70",
+      "X-Real-Ip": "1.187.125.195",
+      "X-Request-Id": "e9047e1c7675d9ed380528921b67ded3",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 05:57:36.744 NotebookApp] 500 GET /user/shubhamsatyam54-ds-c--1mxspgjv/api/metrics/v1 (1.187.125.195) 16.290000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/stack.ipynb
+[E 05:57:37.342 NotebookApp] Uncaught exception GET /user/shubhamsatyam54-ds-c--1mxspgjv/api/metrics/v1 (1.187.125.195)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='GET', uri='/user/shubhamsatyam54-ds-c--1mxspgjv/api/metrics/v1', version='HTTP/1.1', remote_ip='1.187.125.195')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 447, in wrapper
+        ret = self._cache[fun]
+    AttributeError: 'Process' object has no attribute '_cache'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1576, in wrapper
+        return fun(self, *args, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1810, in memory_info
+        with open_binary("%s/%s/statm" % (self._procfs_path, self.pid)) as f:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 711, in open_binary
+        return open(fname, "rb", **kwargs)
+    FileNotFoundError: [Errno 2] No such file or directory: '/proc/2587/statm'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/jupyter_resource_usage/api.py", line 31, in get
+        rss = sum([p.memory_info().rss for p in all_processes])
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/jupyter_resource_usage/api.py", line 31, in <listcomp>
+        rss = sum([p.memory_info().rss for p in all_processes])
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_common.py", line 450, in wrapper
+        return fun(self)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/__init__.py", line 1054, in memory_info
+        return self._proc.memory_info()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/psutil/_pslinux.py", line 1583, in wrapper
+        raise NoSuchProcess(self.pid, self._name)
+    psutil.NoSuchProcess: psutil.NoSuchProcess process no longer exists (pid=2587)
+[E 05:57:37.344 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1624852117|30:username-hub-gke2-mybinder-org|44:ZjBmYTI4ZWYyZjI5NGM4NTgxMzgyOTgxNTM2ZTgyZDE=|3adce785666ddc05f9c01d0eb936d9a2c26970ad63a83f734915b10310a2fc75\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/stack.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "1.187.125.195,::ffff:10.0.17.70",
+      "X-Real-Ip": "1.187.125.195",
+      "X-Request-Id": "9728f8ff243005289431849857572781",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 05:57:37.345 NotebookApp] 500 GET /user/shubhamsatyam54-ds-c--1mxspgjv/api/metrics/v1 (1.187.125.195) 5.130000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--1mxspgjv/notebooks/stack.ipynb
+TermSocket.open: 3
+TermSocket.open: Opened 3
+[I 05:58:16.179 NotebookApp] Creating new file in 
+[I 05:58:27.479 NotebookApp] Saving file at /stack_import.ipynb
+[I 05:59:34.025 NotebookApp] Saving file at /untitled.txt

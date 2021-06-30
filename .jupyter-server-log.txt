@@ -1377,3 +1377,102 @@ TermSocket.open: Opened 1
 [I 04:28:31.219 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 04:30:00.247 NotebookApp] Notebook simple linked list.ipynb is not trusted
+[I 04:30:01.016 NotebookApp] Kernel started: 264bd821-45b4-477d-ae5b-6e66526f2dd4, name: xcpp17
+[I 04:30:03.431 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:32:03.408 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:34:03.413 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:36:03.354 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:38:03.347 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:40:03.754 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 04:41:03.035 NotebookApp] Culling 'idle' kernel 'xcpp17' (264bd821-45b4-477d-ae5b-6e66526f2dd4) with 1 connections due to 659 seconds of inactivity.
+[I 04:41:03.035 NotebookApp] Kernel shutdown: 264bd821-45b4-477d-ae5b-6e66526f2dd4
+[I 04:50:03.379 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:52:03.375 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:54:03.387 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:56:03.751 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 04:58:03.823 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:00:03.391 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:02:04.502 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:06:03.392 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:08:03.390 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:10:03.403 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:10:20.324 NotebookApp] Starting buffering for 5d1e8ff0-fd89-4ee3-9699-60429ad7ce24:5b207534b8634993a0d4f2d6c6b3c104
+[I 05:10:20.451 NotebookApp] Kernel restarted: 5d1e8ff0-fd89-4ee3-9699-60429ad7ce24
+[I 05:10:21.669 NotebookApp] Restoring connection for 5d1e8ff0-fd89-4ee3-9699-60429ad7ce24:5b207534b8634993a0d4f2d6c6b3c104
+[I 05:10:22.588 NotebookApp] Replaying 3 buffered messages
+[I 05:12:03.383 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:14:03.760 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:20:03.377 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 05:30:03.034 NotebookApp] Culling 'idle' kernel 'xcpp17' (5d1e8ff0-fd89-4ee3-9699-60429ad7ce24) with 1 connections due to 627 seconds of inactivity.
+[I 05:30:03.035 NotebookApp] Kernel shutdown: 5d1e8ff0-fd89-4ee3-9699-60429ad7ce24
+[W 05:33:33.504 NotebookApp] 404 POST /user/shubhamsatyam54-ds-c--4dxb4xfq/api/kernels/5d1e8ff0-fd89-4ee3-9699-60429ad7ce24/interrupt (106.67.105.233): Kernel does not exist: 5d1e8ff0-fd89-4ee3-9699-60429ad7ce24
+[W 05:33:33.504 NotebookApp] Kernel does not exist: 5d1e8ff0-fd89-4ee3-9699-60429ad7ce24
+[W 05:33:33.504 NotebookApp] 404 POST /user/shubhamsatyam54-ds-c--4dxb4xfq/api/kernels/5d1e8ff0-fd89-4ee3-9699-60429ad7ce24/interrupt (106.67.105.233) 1.670000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--4dxb4xfq/notebooks/dubly%20linked%20linked.ipynb
+[E 05:33:49.425 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 5d1e8ff0-fd89-4ee3-9699-60429ad7ce24)
+[E 05:33:49.430 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1625026996|30:username-hub-gke2-mybinder-org|44:MGMxYTQ1YTI4MWVjNGM5NjkwZTQ0MGZkZTczNDE0YWM=|977d21e4077090d8ef57be6414906bd435009c34889ec5297a255b732451ed11\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--4dxb4xfq/notebooks/dubly%20linked%20linked.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "106.67.105.233,::ffff:10.0.14.6",
+      "X-Real-Ip": "106.67.105.233",
+      "X-Request-Id": "8a7223332ede064127ceb64b136f9e78",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 05:33:49.430 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--4dxb4xfq/api/kernels/5d1e8ff0-fd89-4ee3-9699-60429ad7ce24/restart (106.67.105.233) 5.730000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--4dxb4xfq/notebooks/dubly%20linked%20linked.ipynb
+[W 05:33:49.790 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--4dxb4xfq/api/sessions/68545a20-5832-4852-a48a-3d41dcf51b18 (106.67.105.233): Kernel deleted before session
+[W 05:33:49.790 NotebookApp] Kernel deleted before session
+[W 05:33:49.790 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--4dxb4xfq/api/sessions/68545a20-5832-4852-a48a-3d41dcf51b18 (106.67.105.233) 2.200000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--4dxb4xfq/notebooks/dubly%20linked%20linked.ipynb
+[I 05:33:50.929 NotebookApp] Kernel started: 05d97045-0dcb-483b-84e3-2c19d3639b30, name: xcpp17
+[I 05:34:04.215 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:36:03.480 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 05:42:23.249 NotebookApp] Starting buffering for 05d97045-0dcb-483b-84e3-2c19d3639b30:5b207534b8634993a0d4f2d6c6b3c104
+Websocket closed
+[W 05:46:03.035 NotebookApp] Culling 'idle' kernel 'xcpp17' (05d97045-0dcb-483b-84e3-2c19d3639b30) with 0 connections due to 604 seconds of inactivity.
+[I 05:46:03.036 NotebookApp] Kernel shutdown: 05d97045-0dcb-483b-84e3-2c19d3639b30
+[I 05:48:01.442 NotebookApp] Saving file at /simple linked list.ipynb
+[I 05:50:01.404 NotebookApp] Saving file at /simple linked list.ipynb
+[W 05:50:10.927 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--4dxb4xfq/api/kernels/05d97045-0dcb-483b-84e3-2c19d3639b30/channels?session_id=5b207534b8634993a0d4f2d6c6b3c104 (106.67.105.233): Kernel does not exist: 05d97045-0dcb-483b-84e3-2c19d3639b30
+[W 05:50:10.935 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--4dxb4xfq/api/kernels/05d97045-0dcb-483b-84e3-2c19d3639b30/channels?session_id=5b207534b8634993a0d4f2d6c6b3c104 (106.67.105.233) 10.040000ms referer=None
+[W 05:50:14.881 NotebookApp] Replacing stale connection: 05d97045-0dcb-483b-84e3-2c19d3639b30:5b207534b8634993a0d4f2d6c6b3c104
+[W 05:51:14.882 NotebookApp] Replacing stale connection: 05d97045-0dcb-483b-84e3-2c19d3639b30:5b207534b8634993a0d4f2d6c6b3c104
+[I 05:51:17.528 NotebookApp] New terminal with automatic name: 2
+[I 05:52:01.853 NotebookApp] Saving file at /simple linked list.ipynb
+[W 05:52:14.882 NotebookApp] Replacing stale connection: 05d97045-0dcb-483b-84e3-2c19d3639b30:5b207534b8634993a0d4f2d6c6b3c104
+[I 05:52:26.465 NotebookApp] New terminal with automatic name: 3
+[W 05:53:16.056 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--4dxb4xfq/api/kernels/264bd821-45b4-477d-ae5b-6e66526f2dd4/channels?session_id=ef0da88b201f40498f080a424c92481c (106.67.105.233): Kernel does not exist: 264bd821-45b4-477d-ae5b-6e66526f2dd4
+[W 05:53:16.058 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--4dxb4xfq/api/kernels/264bd821-45b4-477d-ae5b-6e66526f2dd4/channels?session_id=ef0da88b201f40498f080a424c92481c (106.67.105.233) 3.390000ms referer=None
+TermSocket.open: 1
+TermSocket.open: Opened 1
+TermSocket.open: 2
+TermSocket.open: Opened 2
+TermSocket.open: 3
+TermSocket.open: Opened 3
+[W 05:53:20.684 NotebookApp] Replacing stale connection: 264bd821-45b4-477d-ae5b-6e66526f2dd4:ef0da88b201f40498f080a424c92481c

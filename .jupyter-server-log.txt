@@ -1476,3 +1476,243 @@ TermSocket.open: Opened 2
 TermSocket.open: 3
 TermSocket.open: Opened 3
 [W 05:53:20.684 NotebookApp] Replacing stale connection: 264bd821-45b4-477d-ae5b-6e66526f2dd4:ef0da88b201f40498f080a424c92481c
+[W 2021-06-30 06:31:37.341 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-30 06:31:37.341 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-30 06:31:37.341 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.341 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 06:31:37.342 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-06-30 06:31:37.350 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-06-30 06:31:37.351 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 06:31:37.357 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 06:31:37.359 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 06:31:37.360 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 06:31:37.360 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 06:31:37.360 NotebookApp] http://jupyter-shubhamsatyam54-2dds-2dc-2d-2dobsa40cs:8888/user/shubhamsatyam54-ds-c--obsa40cs/?token=...
+[I 06:31:37.360 NotebookApp]  or http://127.0.0.1:8888/user/shubhamsatyam54-ds-c--obsa40cs/?token=...
+[I 06:31:37.360 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 06:31:37.365 NotebookApp] No web browser found: could not locate runnable browser.
+[I 06:31:40.925 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--obsa40cs/ (10.0.5.20) 0.860000ms
+[I 06:31:42.197 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--obsa40cs/?token=VA-KlaRaSJmTkaUNWjj1bg (106.67.105.233) 0.720000ms
+[I 06:34:30.203 NotebookApp] Kernel started: bd561f94-e460-4d64-ac1a-c591bce03acb, name: xcpp17
+[I 06:34:30.203 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 06:34:30.203 NotebookApp] Culling kernels even with connected clients
+[I 06:39:28.698 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 06:40:04.427 NotebookApp] Kernel shutdown: bd561f94-e460-4d64-ac1a-c591bce03acb
+[W 06:40:04.534 NotebookApp] delete /simple linked list.ipynb
+[W 06:40:08.537 NotebookApp] Notebook simple linked list (1).ipynb is not trusted
+[I 06:40:09.406 NotebookApp] Kernel started: 6798b2a6-f525-42dc-8540-1dd9a8dc3f9a, name: xcpp17
+[I 06:42:09.796 NotebookApp] Saving file at /simple linked list.ipynb
+[W 06:51:30.205 NotebookApp] Culling 'idle' kernel 'xcpp17' (6798b2a6-f525-42dc-8540-1dd9a8dc3f9a) with 1 connections due to 659 seconds of inactivity.
+[I 06:51:30.205 NotebookApp] Kernel shutdown: 6798b2a6-f525-42dc-8540-1dd9a8dc3f9a
+[W 06:52:51.410 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 06:52:52.083 NotebookApp] Kernel started: 9c305d5b-397e-49a6-b036-197a73841c99, name: xcpp17
+[I 06:54:52.467 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 06:54:52.467 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 06:56:52.616 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 06:56:52.617 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 06:58:52.510 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 06:58:52.511 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[W 07:04:30.205 NotebookApp] Culling 'idle' kernel 'xcpp17' (9c305d5b-397e-49a6-b036-197a73841c99) with 1 connections due to 622 seconds of inactivity.
+[I 07:04:30.205 NotebookApp] Kernel shutdown: 9c305d5b-397e-49a6-b036-197a73841c99
+[I 07:04:53.488 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:04:53.489 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[E 07:05:06.710 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 9c305d5b-397e-49a6-b036-197a73841c99)
+[E 07:05:06.711 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1625034702|30:username-hub-gke2-mybinder-org|44:ZTZlYzZiOWMxNmM1NDNhY2I5OTkxZmUxYzFlYjZiMDQ=|cb7790b228ee47b372be48d6bbab1ce3164e020535ed93f04b4f7c413672163e\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/dubly%20linked%20linked.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "106.67.105.233,::ffff:10.0.14.6",
+      "X-Real-Ip": "106.67.105.233",
+      "X-Request-Id": "f9fbdffcd93c8d00ade56109879d1258",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 07:05:06.711 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--obsa40cs/api/kernels/9c305d5b-397e-49a6-b036-197a73841c99/restart (106.67.105.233) 2.120000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/dubly%20linked%20linked.ipynb
+[W 07:05:07.136 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--obsa40cs/api/sessions/1533da48-410a-4821-b2ce-65b850534020 (106.67.105.233): Kernel deleted before session
+[W 07:05:07.136 NotebookApp] Kernel deleted before session
+[W 07:05:07.137 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--obsa40cs/api/sessions/1533da48-410a-4821-b2ce-65b850534020 (106.67.105.233) 1.540000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/dubly%20linked%20linked.ipynb
+[I 07:05:07.573 NotebookApp] Kernel started: 85b42fdb-a27b-4d77-a669-6d9bd6a0798d, name: xcpp17
+[I 07:06:52.586 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:06:52.587 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:08:52.574 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:08:52.575 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:10:52.937 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:10:52.938 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:12:52.630 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:12:52.630 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:14:52.476 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:14:52.477 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[W 07:19:33.921 NotebookApp] WebSocket ping timeout after 119390 ms.
+[W 07:19:34.873 NotebookApp] WebSocket ping timeout after 119432 ms.
+[W 07:19:39.331 NotebookApp] WebSocket ping timeout after 119667 ms.
+Websocket closed
+[W 07:19:41.281 NotebookApp] WebSocket ping timeout after 119443 ms.
+[I 07:19:44.333 NotebookApp] Starting buffering for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[W 07:20:41.038 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--obsa40cs/api/kernels/6798b2a6-f525-42dc-8540-1dd9a8dc3f9a/channels?session_id=82b27a732cbf4967b7f1aedc1ae77238 (157.35.231.246): Kernel does not exist: 6798b2a6-f525-42dc-8540-1dd9a8dc3f9a
+[W 07:20:41.067 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--obsa40cs/api/kernels/6798b2a6-f525-42dc-8540-1dd9a8dc3f9a/channels?session_id=82b27a732cbf4967b7f1aedc1ae77238 (157.35.231.246) 32.000000ms referer=None
+[I 07:20:48.905 NotebookApp] Restoring connection for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[W 07:20:50.269 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--obsa40cs/api/kernels/bd561f94-e460-4d64-ac1a-c591bce03acb/channels?session_id=5c80e702d8844b90875c994a31ed7dd5 (157.35.231.246): Kernel does not exist: bd561f94-e460-4d64-ac1a-c591bce03acb
+[W 07:20:50.270 NotebookApp] 404 GET /user/shubhamsatyam54-ds-c--obsa40cs/api/kernels/bd561f94-e460-4d64-ac1a-c591bce03acb/channels?session_id=5c80e702d8844b90875c994a31ed7dd5 (157.35.231.246) 2.660000ms referer=None
+[W 07:21:55.992 NotebookApp] Replacing stale connection: bd561f94-e460-4d64-ac1a-c591bce03acb:5c80e702d8844b90875c994a31ed7dd5
+[W 07:22:55.994 NotebookApp] Replacing stale connection: bd561f94-e460-4d64-ac1a-c591bce03acb:5c80e702d8844b90875c994a31ed7dd5
+[W 07:23:55.994 NotebookApp] Replacing stale connection: bd561f94-e460-4d64-ac1a-c591bce03acb:5c80e702d8844b90875c994a31ed7dd5
+[W 07:24:57.635 NotebookApp] Replacing stale connection: 6798b2a6-f525-42dc-8540-1dd9a8dc3f9a:82b27a732cbf4967b7f1aedc1ae77238
+[E 07:25:49.509 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 6798b2a6-f525-42dc-8540-1dd9a8dc3f9a)
+[E 07:25:49.510 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1625034702|30:username-hub-gke2-mybinder-org|44:ZTZlYzZiOWMxNmM1NDNhY2I5OTkxZmUxYzFlYjZiMDQ=|cb7790b228ee47b372be48d6bbab1ce3164e020535ed93f04b4f7c413672163e\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/simple%20linked%20list.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "157.35.231.246,::ffff:10.0.14.6",
+      "X-Real-Ip": "157.35.231.246",
+      "X-Request-Id": "8174d7916514c891c25ab0ef865e915e",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 07:25:49.510 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--obsa40cs/api/kernels/6798b2a6-f525-42dc-8540-1dd9a8dc3f9a/restart (157.35.231.246) 4.610000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/simple%20linked%20list.ipynb
+[W 07:25:49.867 NotebookApp] 404 DELETE /user/shubhamsatyam54-ds-c--obsa40cs/api/sessions/ca4fb500-92b9-4952-bafe-c2f2fe800cf4 (157.35.231.246): Session not found: session_id='ca4fb500-92b9-4952-bafe-c2f2fe800cf4'
+[W 07:25:49.867 NotebookApp] Session not found: session_id='ca4fb500-92b9-4952-bafe-c2f2fe800cf4'
+[W 07:25:49.868 NotebookApp] 404 DELETE /user/shubhamsatyam54-ds-c--obsa40cs/api/sessions/ca4fb500-92b9-4952-bafe-c2f2fe800cf4 (157.35.231.246) 2.170000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/simple%20linked%20list.ipynb
+[I 07:25:50.274 NotebookApp] Kernel started: a94df36b-7a5b-4e5a-a053-5e892d869075, name: xcpp17
+[W 07:25:57.634 NotebookApp] Replacing stale connection: 6798b2a6-f525-42dc-8540-1dd9a8dc3f9a:82b27a732cbf4967b7f1aedc1ae77238
+[I 07:26:05.215 NotebookApp] Starting buffering for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[I 07:26:05.336 NotebookApp] Kernel restarted: 85b42fdb-a27b-4d77-a669-6d9bd6a0798d
+[I 07:26:07.730 NotebookApp] Restoring connection for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[I 07:26:08.235 NotebookApp] Replaying 3 buffered messages
+[I 07:26:52.477 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:26:52.478 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:28:53.502 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:28:53.503 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:30:52.472 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:30:52.472 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:32:52.671 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:32:52.672 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:34:52.452 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:34:52.452 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:37:04.594 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:37:04.594 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[W 07:38:30.206 NotebookApp] Culling 'idle' kernel 'xcpp17' (a94df36b-7a5b-4e5a-a053-5e892d869075) with 1 connections due to 607 seconds of inactivity.
+[I 07:38:30.206 NotebookApp] Kernel shutdown: a94df36b-7a5b-4e5a-a053-5e892d869075
+[I 07:39:26.792 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:39:26.792 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:44:06.797 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:44:06.797 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:46:27.122 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 07:46:27.122 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 07:51:06.772 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 07:53:27.431 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 07:54:21.387 NotebookApp] Saving file at /simple linked list.ipynb
+[E 07:55:00.636 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: a94df36b-7a5b-4e5a-a053-5e892d869075)
+[E 07:55:00.637 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1625034702|30:username-hub-gke2-mybinder-org|44:ZTZlYzZiOWMxNmM1NDNhY2I5OTkxZmUxYzFlYjZiMDQ=|cb7790b228ee47b372be48d6bbab1ce3164e020535ed93f04b4f7c413672163e\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/simple%20linked%20list.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "157.35.231.246,::ffff:10.0.14.6",
+      "X-Real-Ip": "157.35.231.246",
+      "X-Request-Id": "86a26344ef497515887a71db2c3192fe",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 07:55:00.637 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--obsa40cs/api/kernels/a94df36b-7a5b-4e5a-a053-5e892d869075/restart (157.35.231.246) 1.510000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/simple%20linked%20list.ipynb
+[W 07:55:01.018 NotebookApp] 404 DELETE /user/shubhamsatyam54-ds-c--obsa40cs/api/sessions/885853b4-770a-438a-8e4b-56f79fb0f63e (157.35.231.246): Session not found: session_id='885853b4-770a-438a-8e4b-56f79fb0f63e'
+[W 07:55:01.018 NotebookApp] Session not found: session_id='885853b4-770a-438a-8e4b-56f79fb0f63e'
+[W 07:55:01.018 NotebookApp] 404 DELETE /user/shubhamsatyam54-ds-c--obsa40cs/api/sessions/885853b4-770a-438a-8e4b-56f79fb0f63e (157.35.231.246) 2.080000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--obsa40cs/notebooks/simple%20linked%20list.ipynb
+[I 07:55:01.369 NotebookApp] Kernel started: c464a544-5a21-46ae-908f-da1d84262bdf, name: xcpp17
+[I 07:56:21.427 NotebookApp] Saving file at /simple linked list.ipynb
+[I 07:56:39.968 NotebookApp] Starting buffering for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[I 07:56:40.103 NotebookApp] Kernel restarted: 85b42fdb-a27b-4d77-a669-6d9bd6a0798d
+[I 07:56:41.114 NotebookApp] Restoring connection for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[I 07:56:42.120 NotebookApp] Replaying 3 buffered messages
+[I 07:57:22.991 NotebookApp] Starting buffering for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[I 07:57:23.134 NotebookApp] Kernel restarted: 85b42fdb-a27b-4d77-a669-6d9bd6a0798d
+[I 07:57:24.244 NotebookApp] Restoring connection for 85b42fdb-a27b-4d77-a669-6d9bd6a0798d:8e03ed8b1c68405cafe5192d4665ae4d
+[I 07:57:25.250 NotebookApp] Replaying 3 buffered messages
+[I 07:57:49.335 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2

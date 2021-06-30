@@ -1716,3 +1716,105 @@ Websocket closed
 [I 07:57:49.335 NotebookApp] New terminal with automatic name: 2
 TermSocket.open: 2
 TermSocket.open: Opened 2
+[W 2021-06-30 18:36:01.034 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-30 18:36:01.034 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-06-30 18:36:01.034 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-06-30 18:36:01.034 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-06-30 18:36:01.044 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-06-30 18:36:01.044 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 18:36:01.053 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 18:36:01.055 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 18:36:01.056 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 18:36:01.056 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 18:36:01.056 NotebookApp] http://jupyter-shubhamsatyam54-2dds-2dc-2d-2dq6j9lr0t:8888/user/shubhamsatyam54-ds-c--q6j9lr0t/?token=...
+[I 18:36:01.056 NotebookApp]  or http://127.0.0.1:8888/user/shubhamsatyam54-ds-c--q6j9lr0t/?token=...
+[I 18:36:01.056 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 18:36:01.061 NotebookApp] No web browser found: could not locate runnable browser.
+[I 18:36:01.064 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--q6j9lr0t/ (10.0.5.20) 1.270000ms
+[I 18:36:04.100 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--q6j9lr0t/?token=CaWztRrIS-iEA-cfE7sIeA (47.9.216.110) 1.000000ms
+[I 18:36:19.579 NotebookApp] Kernel started: c0952356-cd1a-45db-b196-1a70697c74fb, name: xcpp17
+[I 18:36:19.580 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 18:36:19.580 NotebookApp] Culling kernels even with connected clients
+[I 18:38:20.026 NotebookApp] Saving file at /simple linked list.ipynb
+[W 18:38:34.245 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 18:38:34.764 NotebookApp] Kernel started: c8df2210-3951-4ada-96bf-478dda5e0100, name: xcpp17
+[W 18:38:56.867 NotebookApp] Notebook simple linked list.ipynb is not trusted
+[I 18:42:19.979 NotebookApp] Saving file at /simple linked list.ipynb
+[I 18:44:20.290 NotebookApp] Saving file at /simple linked list.ipynb
+[I 18:46:20.070 NotebookApp] Saving file at /simple linked list.ipynb
+[I 18:46:35.648 NotebookApp] Starting buffering for c0952356-cd1a-45db-b196-1a70697c74fb:1b3fe0c79acb4b2689da50cd007ceb34
+[I 18:46:35.780 NotebookApp] Kernel restarted: c0952356-cd1a-45db-b196-1a70697c74fb
+[I 18:46:37.223 NotebookApp] Restoring connection for c0952356-cd1a-45db-b196-1a70697c74fb:1b3fe0c79acb4b2689da50cd007ceb34
+[I 18:46:37.729 NotebookApp] Replaying 3 buffered messages
+[I 18:48:20.619 NotebookApp] Saving file at /simple linked list.ipynb
+[I 18:48:35.140 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 18:48:35.140 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[W 18:49:19.581 NotebookApp] Culling 'idle' kernel 'xcpp17' (c8df2210-3951-4ada-96bf-478dda5e0100) with 1 connections due to 642 seconds of inactivity.
+[I 18:49:19.582 NotebookApp] Kernel shutdown: c8df2210-3951-4ada-96bf-478dda5e0100
+[E 18:49:56.881 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: c8df2210-3951-4ada-96bf-478dda5e0100)
+[E 18:49:56.887 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1625078164|30:username-hub-gke2-mybinder-org|44:OGFhZTJhMGMwMmRlNDZhNGEwMTI4NGVmZmJlZGVmMzg=|ecb00960ddc68147d47f36a185c223804c6f30361cb616cb8aad6e0e1f1f9b62\"; _xsrf=2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--q6j9lr0t/notebooks/dubly%20linked%20linked.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f1355816|e25cda1ef429e1afb3713b9f343ee17c|1624465543",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"91\", \"Chromium\";v=\"91\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "47.9.216.110,::ffff:10.0.17.70",
+      "X-Real-Ip": "47.9.216.110",
+      "X-Request-Id": "42d71c998cc14f67883e4e39dc2e8943",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 18:49:56.887 NotebookApp] 500 POST /user/shubhamsatyam54-ds-c--q6j9lr0t/api/kernels/c8df2210-3951-4ada-96bf-478dda5e0100/restart (47.9.216.110) 6.250000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--q6j9lr0t/notebooks/dubly%20linked%20linked.ipynb
+[W 18:49:57.270 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--q6j9lr0t/api/sessions/49f8380d-b506-490c-b9aa-85562940ed75 (47.9.216.110): Kernel deleted before session
+[W 18:49:57.270 NotebookApp] Kernel deleted before session
+[W 18:49:57.271 NotebookApp] 410 DELETE /user/shubhamsatyam54-ds-c--q6j9lr0t/api/sessions/49f8380d-b506-490c-b9aa-85562940ed75 (47.9.216.110) 2.560000ms referer=https://hub.gke2.mybinder.org/user/shubhamsatyam54-ds-c--q6j9lr0t/notebooks/dubly%20linked%20linked.ipynb
+[I 18:49:57.857 NotebookApp] Kernel started: 871f1ca4-da61-41a4-a54b-610666932881, name: xcpp17
+[I 18:50:35.625 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 18:50:35.626 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[I 18:52:35.324 NotebookApp] Saving file at /dubly linked linked.ipynb
+[I 18:53:15.819 NotebookApp] Starting buffering for 871f1ca4-da61-41a4-a54b-610666932881:7caec23082a54cd289860bf4b6cd4f5b
+[I 18:53:15.950 NotebookApp] Kernel restarted: 871f1ca4-da61-41a4-a54b-610666932881
+[I 18:53:17.222 NotebookApp] Restoring connection for 871f1ca4-da61-41a4-a54b-610666932881:7caec23082a54cd289860bf4b6cd4f5b
+[I 18:53:18.737 NotebookApp] Replaying 3 buffered messages
+[W 18:53:55.358 NotebookApp] Notebook simple linked list.ipynb is not trusted
+[I 18:54:35.645 NotebookApp] Saving file at /dubly linked linked.ipynb
+[W 18:54:49.864 NotebookApp] Notebook dubly linked linked.ipynb is not trusted
+[W 18:57:19.582 NotebookApp] Culling 'idle' kernel 'xcpp17' (c0952356-cd1a-45db-b196-1a70697c74fb) with 1 connections due to 641 seconds of inactivity.
+[I 18:57:19.582 NotebookApp] Kernel shutdown: c0952356-cd1a-45db-b196-1a70697c74fb
+[I 19:01:16.586 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 19:01:27.745 NotebookApp] Creating new directory in 
+[W 19:01:46.188 NotebookApp] delete /Untitled Folder

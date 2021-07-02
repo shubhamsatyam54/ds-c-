@@ -1942,3 +1942,14 @@ TermSocket.open: Opened 1
 [I 06:39:22.227 NotebookApp] Replaying 21 buffered messages
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 06:39:54.512 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:41:53.879 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:43:54.468 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:45:54.461 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:47:53.850 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:49:53.842 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:51:54.598 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:53:53.857 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:55:53.852 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:57:55.893 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 06:59:54.527 NotebookApp] Saving file at /Binary Search Tree.ipynb

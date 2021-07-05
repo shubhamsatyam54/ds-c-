@@ -1953,3 +1953,45 @@ TermSocket.open: Opened 1
 [I 06:55:53.852 NotebookApp] Saving file at /Binary Search Tree.ipynb
 [I 06:57:55.893 NotebookApp] Saving file at /Binary Search Tree.ipynb
 [I 06:59:54.527 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[W 2021-07-05 04:58:48.447 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-05 04:58:48.447 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-05 04:58:48.447 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.447 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 04:58:48.448 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-05 04:58:48.457 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-07-05 04:58:48.457 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 04:58:48.469 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 04:58:48.472 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 04:58:48.473 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 04:58:48.473 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 04:58:48.473 NotebookApp] http://jupyter-shubhamsatyam54-2dds-2dc-2d-2d4ke7qsah:8888/user/shubhamsatyam54-ds-c--4ke7qsah/?token=...
+[I 04:58:48.473 NotebookApp]  or http://127.0.0.1:8888/user/shubhamsatyam54-ds-c--4ke7qsah/?token=...
+[I 04:58:48.473 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 04:58:48.479 NotebookApp] No web browser found: could not locate runnable browser.
+[I 04:58:48.483 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--4ke7qsah/ (10.0.5.98) 1.870000ms
+[I 04:58:52.017 NotebookApp] 302 GET /user/shubhamsatyam54-ds-c--4ke7qsah/?token=h3g1co9zTOKqeb8CjX_Hfg (106.67.127.130) 1.010000ms
+[W 04:59:15.921 NotebookApp] Notebook Binary Search Tree.ipynb is not trusted
+[I 04:59:16.809 NotebookApp] Kernel started: 18d6e538-8f7e-4df8-a8ac-0807343aa235, name: xcpp17
+[I 04:59:16.809 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 04:59:16.810 NotebookApp] Culling kernels even with connected clients
+[I 04:59:50.336 NotebookApp] Starting buffering for 18d6e538-8f7e-4df8-a8ac-0807343aa235:17b36c547a6747b58c706a46be9a6b16
+[I 04:59:50.467 NotebookApp] Kernel restarted: 18d6e538-8f7e-4df8-a8ac-0807343aa235
+[I 04:59:51.587 NotebookApp] Restoring connection for 18d6e538-8f7e-4df8-a8ac-0807343aa235:17b36c547a6747b58c706a46be9a6b16
+[I 04:59:53.601 NotebookApp] Replaying 3 buffered messages
+[I 05:01:17.875 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[I 05:02:36.923 NotebookApp] Starting buffering for 18d6e538-8f7e-4df8-a8ac-0807343aa235:17b36c547a6747b58c706a46be9a6b16
+[I 05:02:37.047 NotebookApp] Kernel restarted: 18d6e538-8f7e-4df8-a8ac-0807343aa235
+[I 05:02:38.202 NotebookApp] Restoring connection for 18d6e538-8f7e-4df8-a8ac-0807343aa235:17b36c547a6747b58c706a46be9a6b16
+[I 05:02:39.710 NotebookApp] Replaying 3 buffered messages
+[I 05:03:17.993 NotebookApp] Saving file at /Binary Search Tree.ipynb
+[W 05:05:37.466 NotebookApp] Notebook Binary Search Tree.ipynb is not trusted
+[I 05:05:58.111 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1

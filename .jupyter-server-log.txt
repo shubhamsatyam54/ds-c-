@@ -2028,3 +2028,8 @@ TermSocket.open: Opened 1
 [I 05:32:07.165 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 05:34:39.485 NotebookApp] Creating new notebook in 
+[I 05:34:46.445 NotebookApp] Kernel started: 8d485023-322a-403e-9d08-f82c1ea15b5d, name: xcpp17
+[I 05:35:09.525 NotebookApp] Starting buffering for 1bf36171-69a6-4d1f-a3aa-8f9ef23a0d4f:9801f64420f947c48ebe7a0b325faca5
+[I 05:36:46.903 NotebookApp] Saving file at /Untitled1.ipynb
+[I 05:38:47.129 NotebookApp] Saving file at /Untitled1.ipynb
